@@ -1,2 +1,2 @@
 # mpt-server
-The server (repository) and API for Minecraft Package Tool
+The repository server & API for Minecraft Package Tool
