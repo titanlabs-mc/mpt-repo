@@ -1,0 +1,26 @@
+{
+  "name": "mpt-repo",
+  "version": "0.1.0",
+  "main": "dist/index.ts",
+  "repository": "git@github.com:titanlabs-mc/mpt-repo.git",
+  "author": "TitanLabs",
+  "license": "LGPL-2.1",
+  "scripts": {
+    "dev": "tsc && nodemon ./dist/server.js",
+    "start": "ts-node src/server.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/mongoose": "^5.10.3",
+    "@types/node": "^14.14.30",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo-gridfs": "^1.1.0",
+    "mongoose": "^5.11.17"
+  }
+}
